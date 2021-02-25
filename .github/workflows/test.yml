@@ -33,6 +33,8 @@ jobs:
 
     - run: node ./lib/worm-scraper.js --book=ward
 
+    - run: node ./lib/worm-scraper.js --book=pale
+
     - uses: actions/setup-java@v1
       with:
         java-version: 15
@@ -48,3 +50,6 @@ jobs:
 
     - name: Check Ward.epub
       run: java -jar epubcheck-4.2.4/epubcheck.jar --failonwarnings Ward.epub
+
+          - name: Check Pale.epub
+      run: java -jar epubcheck-4.2.4/epubcheck.jar --failonwarnings Pale.epub

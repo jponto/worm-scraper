@@ -12,7 +12,9 @@
   "author": "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
   "license": "WTFPL",
   "repository": "domenic/worm-scraper",
-  "bin": "lib/worm-scraper.js",
+  "bin": {
+    "worm-scraper": "lib/worm-scraper.js"
+  },
   "files": [
     "covers/",
     "lib/",
@@ -32,8 +34,8 @@
     "yargs": "^16.2.0"
   },
   "devDependencies": {
-    "eslint": "^7.20.0",
-    "@domenic/eslint-config": "^1.0.0"
+    "@domenic/eslint-config": "^1.0.0",
+    "eslint": "^7.20.0"
   },
   "engines": {
     "node": ">=12.10.0"
