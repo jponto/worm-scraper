@@ -8,7 +8,7 @@
     "parahuman",
     "scraper"
   ],
-  "version": "4.7.0",
+  "version": "4.12.1",
   "author": "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
   "license": "WTFPL",
   "repository": "domenic/worm-scraper",
@@ -23,16 +23,17 @@
     "lint": "eslint lib"
   },
   "dependencies": {
-    "archiver": "^5.0.2",
-    "cli-progress": "^3.8.2",
+    "archiver": "^5.2.0",
+    "cli-progress": "^3.9.0",
     "cpr": "^3.0.1",
     "jsdom": "^16.4.0",
     "requisition": "^1.5.0",
-    "workerpool": "^6.0.2",
-    "yargs": "^16.1.0"
+    "workerpool": "^6.1.0",
+    "yargs": "^16.2.0"
   },
   "devDependencies": {
-    "eslint": "^7.11.0"
+    "eslint": "^7.20.0",
+    "@domenic/eslint-config": "^1.0.0"
   },
   "engines": {
     "node": ">=12.10.0"
